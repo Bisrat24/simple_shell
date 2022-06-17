@@ -103,7 +103,7 @@ int shellby_unsetenv(char **args, char __attribute__((__unused__)) **front)
 	int index, index2;
 
 	if (!args[0])
-		return (create_error(args, -1));
+	return (create_error(args, -1));
 	env_var = _getenv(args[0]);
 	if (!env_var)
 		return (0);
