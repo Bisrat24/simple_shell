@@ -13,6 +13,8 @@
 #define END_OF_FILE -2
 #define EXIT -3
 
+/* To work as a library for the whole project */
+
 /* Global environemnt */
 extern char **environ;
 /* Global program name */
